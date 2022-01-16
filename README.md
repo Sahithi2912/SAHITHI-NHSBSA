@@ -7,11 +7,8 @@ To write a Wales Test Ticket
 3. Add Maven installable directory to system path variable. ( to execute maven from any directory in CLI)
 
 # Note
-To execute the test cases for chrome update <your local root path> in line 34 of costsChecker.java  to us your local chrome.exe 
+The default mozilla driver instalaltion is assumed ot be at "C:\\Program Files\\Mozilla Firefox\\firefox.exe". If your installation is at different location please change this path in below file line no 21 as needed Sahithi-NHSBSA\WalesTestTicket\src\test\java\steps\costChecker.java
 
-```
-  System.setProperty("webdriver.chrome.driver", "<your local root path>//WalesTestTicket//chromedriver_win32//chromedriver.exe");
-```  
 # Instructions 
 1. Open command prompt or preferred cli.
 2. verify all the tools installed as in Prerequisites.
